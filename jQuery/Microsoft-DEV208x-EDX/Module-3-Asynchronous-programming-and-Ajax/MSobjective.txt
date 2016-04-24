@@ -1,0 +1,40 @@
+OBJECTIVE:
+
+For module three, you'll add the final feature to your rating widget: 
+the ability to send the rating to a service.
+
+The service has already been created. The service will act as a simple 
+echo service, taking the rating you submit inside a JSON object, and 
+then sending back a JSON containing a message. The structure of the 
+expected JSON object, and the JSON object the service will return, 
+are documented below.
+
+To complete the lab, follow these steps:
+
+Update the HTML you used to complete lab two.
+
+Add a button. You will use the new button to submit the rating to 
+the Rating service. You can use the HTML below:
+  <button type="button" id="save-rating">Save rating</button>
+  
+Add a div element. You will use the new div element to output the 
+message. You can use the HTML below:
+  <div id="output"></div>
+  
+Add a click event handler for the button you created. Add the code 
+necessary to call the Rating service. The information about the rating 
+service, including the URL, the verb, and the JSON objects, is below.
+When the server returns the object, display the message inside of the 
+div you created earlier.
+URL:http://jquery-edx.azurewebsites.net/api/Rating
+
+VERB: POST
+
+Parameter (object to upload): The server expects a JSON object with two 
+properties, value, which contains the current rating, and maxValue, 
+which contains the maximum allowed value. (Example: { value: 4, 
+maxValue: 5})
+
+Return (object returned by server): The server will return a JSON object
+with one property, message which will contain the message returned by the 
+server. (Example: {message: 'You chose 4 out of 5'}
