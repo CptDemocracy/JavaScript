@@ -8,3 +8,6 @@ follows.
 
 All Microsoft-supplied code that I didn't write myself, is 
 prefixed with "MS".
+
+Everyone is welcome to familiarize themselves with the code, which
+is provided solely for educational purposes.
