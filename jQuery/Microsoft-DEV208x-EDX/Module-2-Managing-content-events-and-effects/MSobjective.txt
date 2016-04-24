@@ -1,0 +1,21 @@
+OBJECTIVE:
+
+For module two, you will enhance the interface for your review widget. 
+The updated interface must meet the following goals
+
+Provide a configurable number of circles for the user to click on. This 
+can be accomplished by adding a custom attribute to the outer div element 
+that contains the circles.
+
+Allow the number of circles to be updated by a textbox. This is to simulate 
+an administration widget; we will not be adding any form of security to the 
+widget.
+
+The existing functionality of hovering and selection must still work.
+The starting ratings widget will have 5 circles.
+
+When a user enters a new value into the textbox, the number of circles must
+contain the number provided.
+
+Tip: Delegate, which we talked about previously, does not support the hover 
+event.
