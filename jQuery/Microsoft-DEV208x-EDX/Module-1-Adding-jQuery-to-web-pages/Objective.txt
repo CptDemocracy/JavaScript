@@ -1,0 +1,20 @@
+OBJECTIVE:
+
+For module one, you will create the initial interface for 
+your review widget. The interface must meet the following goals:
+
+Provide five circles for the user to select or click on.
+
+When the user hovers their mouse over a circle, that circle 
+and all circles to the left must be filled with a color, such 
+as yellow. You can see a screenshot of this below.
+
+When the user clicks on a circle, that circle and all circles 
+to the left must be filled with a different color, such as green. 
+The color must remain, even after the user moves their mouse away 
+from the widget. You do not need to remember the number for page 
+refreshes. You can see a sample of this below.
+
+HTML and CSS for the interface has been provided for your use. 
+The lab can be solved without using any additional HTML; 
+you only need to provide the necessary jQuery.
